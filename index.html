@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form">
+            <div class="title">
+                <h1>Form Register</h1>
+                <p> Este formulario tiene como objetivo recopilar informacion </p>
+            </div>
+            <div class="row_form">
+                <label for=""class="label_form">Name:</label>
+                <input type="text" class="input_form" placeholder="Escribe tu nombre">
+                <form method="post" action="/send/">
+            </div>
+            <div class="row_form">
+                <label for=""class="label_form">Last Name:</label>
+                <input type="text" class="input_form" placeholder="Escribe tu apellido" >
+                <form method="post" action="/send/">
+            </div>
+            <div class="row_form">
+                <label for=""class="label_form">Phone:</label>
+                <input type="number" class="input_form" placeholder="Escribe tu telefono" maxlength="10">
+                <form method="post" action="/send/">
+            </div>
+            <div class="row_form">
+                <label for=""class="label_form">E-mail:</label>
+                <input type="email" class="input_form" placeholder="Escribe tu correo electronico" >
+                <form method="post" action="/send/">
+            </div>
+            <div class="row_form">
+                <label for=""class="label_form">password:</label>
+                <input type="password" class="input_form" placeholder="Escribe tu contraceña" >
+                <form method="post" action="/send/">
+            </div>
+            <div class="row_form">
+                <label for=""class="label_form">Repit password:</label>
+                <input type="password" class="input_form" placeholder="confirma tu contraceña" >
+                <form method="post" action="/send/">
+            </div>
+            <div class="row form">
+                <button class="button_form">send</button>
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
